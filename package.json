@@ -1,0 +1,28 @@
+{
+  "name": "tarantula-hawk",
+  "version": "1.0.0",
+  "description": "Tarantula Hawk Information Page",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordanwbutterwick/tarantula-hawk.git"
+  },
+  "keywords": [
+    "tarantula",
+    "hawk"
+  ],
+  "author": "Jordan Butterwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordanwbutterwick/tarantula-hawk/issues"
+  },
+  "homepage": "https://github.com/Jordanwbutterwick/tarantula-hawk#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
