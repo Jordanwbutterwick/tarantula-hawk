@@ -1,0 +1,16 @@
+@import "../base/variables.scss";
+
+.content {
+  h1 {
+    font-family: $hfont;
+    color: $hfontcolor;
+    font-size: $h1fontsize;
+    font-weight: $hfontweight;
+  }
+  h2 {
+    font-family: $hfont;
+    color: $hfontcolor;
+    font-size: $h2fontsize;
+    font-weight: $hfontweight;
+  }
+}

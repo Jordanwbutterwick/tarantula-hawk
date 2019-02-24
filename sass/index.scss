@@ -1,0 +1,14 @@
+@import "./base/variables.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/content.scss";
+
+* {
+  margin: 0;
+}
+
+p {
+  font-family: $pfont;
+  color: $pfontcolor;
+  font-size: $pfontsize;
+}

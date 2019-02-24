@@ -13,7 +13,7 @@
   </head>
   <body>
     <?php
-@include_once "header.php";    
+@include_once "./php/header.php";    
 ?>
     <main>
       <div class="hero"></div>

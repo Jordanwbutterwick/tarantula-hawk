@@ -1,0 +1,25 @@
+@import "../base/variables.scss";
+
+footer {
+  p {
+    font-family: $pfont;
+    font-size: $pfontsize;
+    color: $pfontcolor;
+    font-weight: $pfontweight;
+  }
+
+  a {
+    font-family: $afont;
+    font-size: $afontsize;
+    color: $afontcolor;
+    text-decoration: none;
+  }
+
+  li {
+    display: flex;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}
