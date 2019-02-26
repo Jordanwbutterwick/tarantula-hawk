@@ -1,0 +1,24 @@
+header p {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  font-weight: 100; }
+
+header a {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  text-decoration: none; }
+
+header li {
+  display: flex; }
+
+header ul {
+  list-style-type: none; }
+
+nav {
+  height: 100px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }

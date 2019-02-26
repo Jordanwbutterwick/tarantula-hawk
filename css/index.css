@@ -1,0 +1,136 @@
+header p {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  font-weight: 100; }
+
+header a {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  text-decoration: none; }
+
+header li {
+  display: flex; }
+
+header ul {
+  list-style-type: none; }
+
+nav {
+  height: 100px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+.hero {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  margin-bottom: 150px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+  .hero h1 {
+    font-family: "Cormorant Garamond";
+    color: #353535;
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 25px; }
+  .hero h3 {
+    font-family: "Cormorant Garamond";
+    color: #353535;
+    font-weight: 100;
+    font-size: 2em; }
+
+.row-left {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh; }
+  .row-left .content-left {
+    max-width: 40%;
+    margin: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left; }
+    .row-left .content-left h1 {
+      font-family: "Cormorant Garamond";
+      color: #353535;
+      font-size: 4em;
+      font-weight: 100; }
+    .row-left .content-left h2 {
+      font-family: "Cormorant Garamond";
+      color: #353535;
+      font-size: 2em;
+      font-weight: 100; }
+
+.row-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh; }
+  .row-right .content-right {
+    max-width: 40%;
+    margin: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+    .row-right .content-right h1 {
+      font-family: "Cormorant Garamond";
+      color: #353535;
+      font-size: 4em;
+      font-weight: 100; }
+    .row-right .content-right h2 {
+      font-family: "Cormorant Garamond";
+      color: #353535;
+      font-size: 2em;
+      font-weight: 100; }
+
+.img1 {
+  background-image: url("../assets/tarantula-hawk-on-milkweed.jpg");
+  height: 100%;
+  width: 50%;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 850px 0px; }
+
+@media (min-width: 1920px) {
+  .img1 {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 1050px -250px; } }
+
+footer p {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  font-weight: 100; }
+
+footer a {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  text-decoration: none; }
+
+footer li {
+  display: flex; }
+
+footer ul {
+  list-style-type: none; }
+
+* {
+  margin: 0; }
+
+p {
+  font-family: "lato";
+  color: #353535;
+  font-size: 1.3em;
+  font-weight: 100; }

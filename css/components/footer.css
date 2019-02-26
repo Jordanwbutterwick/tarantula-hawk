@@ -1,0 +1,17 @@
+footer p {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  font-weight: 100; }
+
+footer a {
+  font-family: "lato";
+  font-size: 1.3em;
+  color: #353535;
+  text-decoration: none; }
+
+footer li {
+  display: flex; }
+
+footer ul {
+  list-style-type: none; }

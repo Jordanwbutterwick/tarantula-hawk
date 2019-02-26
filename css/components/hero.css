@@ -1,0 +1,23 @@
+.hero {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  margin-bottom: 150px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+  .hero h1 {
+    font-family: "Cormorant Garamond";
+    color: #353535;
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 25px; }
+  .hero h3 {
+    font-family: "Cormorant Garamond";
+    color: #353535;
+    font-weight: 100;
+    font-size: 2em; }
