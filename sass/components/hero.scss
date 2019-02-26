@@ -1,0 +1,27 @@
+@import "../base/variables.scss";
+
+.hero {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: $hfont;
+    color: $hfontcolor;
+    font-size: $h1fontsize;
+    font-weight: $hfontweight;
+    margin-bottom: 25px;
+  }
+  h3 {
+    font-family: $hfont;
+    color: $hfontcolor;
+    font-weight: $hfontweight;
+    font-size: 2em;
+  }
+}

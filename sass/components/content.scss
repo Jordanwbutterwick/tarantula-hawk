@@ -1,16 +1,61 @@
 @import "../base/variables.scss";
 
-.content {
-  h1 {
-    font-family: $hfont;
-    color: $hfontcolor;
-    font-size: $h1fontsize;
-    font-weight: $hfontweight;
+.row-left {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  .content-left {
+    max-width: 40%;
+    margin: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left;
+    h1 {
+      font-family: $hfont;
+      color: $hfontcolor;
+      font-size: $h1fontsize;
+      font-weight: $hfontweight;
+    }
+    h2 {
+      font-family: $hfont;
+      color: $hfontcolor;
+      font-size: $h2fontsize;
+      font-weight: $hfontweight;
+    }
   }
-  h2 {
-    font-family: $hfont;
-    color: $hfontcolor;
-    font-size: $h2fontsize;
-    font-weight: $hfontweight;
+}
+
+.row-right {
+  display: flex;
+  justify-content: flex-end;
+  .content-right {
+    max-width: 40%;
+    margin: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left;
+
+    h1 {
+      font-family: $hfont;
+      color: $hfontcolor;
+      font-size: $h1fontsize;
+      font-weight: $hfontweight;
+    }
+    h2 {
+      font-family: $hfont;
+      color: $hfontcolor;
+      font-size: $h2fontsize;
+      font-weight: $hfontweight;
+    }
   }
+}
+
+.img1 {
+  background-image: url("../../assets/tarantula-hawk-on-milkweed.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

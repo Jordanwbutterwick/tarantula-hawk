@@ -18,7 +18,8 @@
     <main>
       <div class="hero"></div>
       <div class="content">
-        <h1>The Tarantula Hawk</h1>
+        <h1>The Tarantula Hawk ()</h1>
+        <h2>Introduction</h2>
       </div>
     </main>
     <?php
