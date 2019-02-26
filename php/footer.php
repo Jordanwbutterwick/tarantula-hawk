@@ -1,10 +1,12 @@
 <footer>
   <ul>
-    <li></li>
-  </ul>
+    <li>
+      <?php 
+        $links [
 
-  <?php
-    @include_once "./php/functions.php";
-  ?>
-  
+        ]
+      ?>
+
+    </li>
+  </ul>  
 </footer>

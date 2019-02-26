@@ -15,9 +15,12 @@
     <?php
 @include_once "./php/header.php";    
 ?>
-        <?php
+<main>
+  <?php
 @include_once "./php/main.php";    
 ?>
+</main>
+        
     <?php
 @include_once "./php/footer.php"
 ?>

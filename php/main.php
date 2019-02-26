@@ -1,4 +1,4 @@
-<main>
+
       <div class="hero">
         <h1>The Tarantula Hawk <i>(Pepsis Grossa)</i></h1>
         <h3>Jordan Butterwick</h3>
@@ -104,4 +104,3 @@
           <div class="img5"></div>
         </div>
       </div>
-    </main>

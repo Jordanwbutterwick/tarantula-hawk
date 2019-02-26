@@ -2,9 +2,11 @@
       <nav>
         <ul>
           <li><a href="jordanwb.design">My Portfolio</a></li>
-          <li><?php
+          <li>
+            <?php
     @include_once "./php/functions.php";
-  ?></li>
+  ?>
+  </li>
         </ul>
       </nav>
     </header>
