@@ -2,9 +2,7 @@
   <ul>
     <li>
       <?php 
-        $links [
-
-        ]
+        
       ?>
 
     </li>
