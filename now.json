@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "builds":[{"use": "@now/static" }]
+  "builds": [{
+    "use": "@now/static"
+  }],
+  "alias": ["bugs.jordanwb.design", "www.bugs.jordanwb.design"]
 }
